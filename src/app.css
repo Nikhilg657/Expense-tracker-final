@@ -1,0 +1,24 @@
+.webtitle{
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    align-items: center;
+    background-color:rgb(245, 230, 250);
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    padding: 2rem;
+    height: 7rem;
+    width: 100%;
+    background-color: purple;
+
+}
+.contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

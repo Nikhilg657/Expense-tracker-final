@@ -1,0 +1,26 @@
+.Exp{
+    background-color:rgb(232, 199, 247);
+    color: black;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid rgb(164, 163, 163);
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 3px rgba(155, 150, 150, 0.26);
+}
+.pie{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:800px) {
+    .Exp{
+        flex-direction: column;
+        padding: 1rem;
+        margin: 1rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+    
+}

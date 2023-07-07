@@ -1,0 +1,66 @@
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 10rem;
+    border: 4px rgb(211, 229, 228) solid;
+    border-radius: 15px;
+    color: white;
+    padding: 1rem;
+    background-color:  rgb(128,0,128);
+}
+.month{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.year{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.day{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+@media screen and (max-width:800px) {
+    .month{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .year{
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+    .day{
+        font-size: 1.20rem;
+        font-weight: 400;
+
+    }
+    .date{
+        width: 7.5rem;
+        border-radius: 8px;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .month{
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .year{
+        font-size: 1.25rem;
+        font-weight: 500;
+
+    }
+    .day{
+        font-size: 1.00rem;
+        font-weight: 400;
+
+    }
+    .date{
+        width: 6rem;
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+    
+}

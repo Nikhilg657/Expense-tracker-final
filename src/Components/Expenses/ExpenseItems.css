@@ -1,0 +1,110 @@
+.expenses{
+    /* margin: 5rem ; */
+    padding: 1rem;
+    background-color: rgb(213, 153, 232);
+    /* border: 5px grey solid; */
+    border: 2px solid rgb(160, 158, 158);
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 10rem;
+    /* border: 2px red solid; */
+    /* padding: 0px 25px; */
+    background-color: rgb(229, 204, 249);
+}
+.title{
+    color: rgb(57, 55, 60);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    /* flex:1; */
+    padding: 0px 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 300px;
+    /* margin-right: 15rem; */
+    background-color: rgb(213, 153, 232);
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 2px white solid;
+    width: 10rem;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 15px;
+    background-color: rgb(128,0,128);
+    padding: 1rem 2.5rem;
+}
+@media screen and (max-width:800px) {
+    .expenses{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .title{
+        padding: 0rem 0rem;
+        font-size: 2rem;
+        width: 2px;
+        margin: 1rem 2rem;
+    }
+    .amount{
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        width: 8rem;
+        padding: 0.7rem 1rem;
+        font-size: 2rem;
+    }
+    
+}
+/* @media screen and (max-width:550px) {
+    .expenses{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        padding: 0rem 1rem;
+        font-size: 2rem;
+        margin: 1rem 2rem;
+        width: 150px;
+    }
+    .amount{
+        border-radius: 8px;
+        width: 8rem;
+        padding: 0.7rem 1rem;
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .expenses{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        padding: 0rem 0rem;
+        font-size: 1.25rem;
+        margin: 1rem 2rem;
+    }
+    .amount{
+        border-radius: 8px;
+        width: 5rem;
+        padding: 0.7rem 1rem;
+        font-size: 1.5rem;
+    }
+    
+}  */
